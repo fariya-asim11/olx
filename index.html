@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+  <div class="container d-flex">
+    <nav class="navbar row">
+      <div class="container col-sm">
+        <img class="" src="images/OLX-Symbol.png" alt="Bootstrap" style="height: 40px;">
+      </div>
+      <div class="col-sm">
+        <nav class="navbar">
+          <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="">
+              <i class="bi bi-car-front icon-gray px-2 py-1"></i>
+             Motors
+            </a>
+          </div>
+        </nav>
+      </div>
+      <div class="col-sm">
+        <nav class="navbar">
+          <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="">
+              <i class="bi bi-buildings icon-gray px-2 py-1"></i>
+             Property
+            </a>
+          </div>
+        </nav>
+      </div>
+    </nav>
+  </div>
+
+
+  <div class="container ms-5">
+    <div class="row ps-5">
+      <div class="col-3 ps-5">
+        <div class="input-group mb-3">
+          <span class="input-group-text bg-white" id="basic-addon1" style="height: 50px;"><i class="bi bi-geo-alt"
+              style="font-size:24px"></i></span>
+          <input type="text" class="form-control px-5 py-2" style="width:60%;" placeholder="Location" value="Pakistan"
+            aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+     </div>
+      <div class="col-8 search input-group w-50 " style="height: 50px;">
+        <input type="search" class="form-control" placeholder="Find Cars Mobile Phones and More... ">
+        <button class="btn bg-dark " type="button" id="button-addon1"><i style="font-size:24px"
+            class="text-center fa text-white">&#xf002;</i></button>
+      </div>
+      <div class="under col login ps-5 fw-bold mt-3"> Login</div>
+      <div class="col"><span class="fw-bold sell  rounded-pill py-3 px-5" style="position: absolute;">+SELL</span>
+      </div>
+    </div>
+
+  </div>
+  <hr>
+  <div class="main container d-flex">
+    <h6 class=" fw-bold ps-2"> ALL CATEGORIES <img src="images/arrow.png" class="image-fluid" style="height: 25px;">
+    </h6>
+    <p class="ms-4 ">Mobile Phones</p>
+    <p class="ms-4 ">Cars</p>
+    <p class="ms-4 ">Motorcycles</p>
+    <p class="ms-4 ">Houses</p>
+    <p class="ms-4 ">Vedio-Audios</p>
+    <p class="ms-4 ">Tablets</p>
+    <p class="ms-4 ">Land&Plots</p>
+  </div>
+  <div id="carouselExampleSlidesOnly" class="container carousel slide mt-2" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/new.webp" class="d-block " alt="..." style="height: 250px; width: 100%;">
+      </div>
+      <div class="carousel-item">
+        <img src="images/new.webp" class="d-block " alt="..." style="height: 250px; width: 100%;">
+      </div>
+      <div class="carousel-item">
+        <img src="images/new.webp" class="d-block" alt="..." style="height: 250px; width: 100%;">
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div>
+      <h4 class="fw-bold mt-4">All categories </h4>
+    </div>
+  </div>
+  <div class="container d-flex">
+    <div class="mt-2 ms-3">
+      <img src="images/mobile-image.png" style="height: 100px;">
+      <h6 class="ms-3 fw-bold mt-2">Mobiles</h6>
+    </div>
+    <div class="mt-2 ms-5">
+      <img src="images/car-image.png" style="height: 100px;">
+      <h6 class="ms-3 fw-bold mt-2">Vehicles</h6>
+    </div>
+    <div class="mt-2 ms-5">
+      <img src="images/house.png" style="height: 100px;">
+      <h6 class="ms-3 fw-bold mt-2">Property for sale</h6>
+    </div>
+    <div class="mt-2 ms-5">
+      <img src="images/property-for-rent.png" style="height: 100px;">
+      <h6 class="ms-3 fw-bold mt-2">Property for rent</h6>
+    </div>
+    <div class="mt-2 ms-5">
+      <img src="images/electronics-home-appliances.png" style="height: 100px;">
+      <h6 class="ms-3 fw-bold mt-2">Electronics and home Appliances</h6>
+    </div>
+    <div class="mt-2 ms-5">
+      <img src="images/bike.png" style="height: 100px;">
+      <h6 class="ms-3 fw-bold mt-2">Bikes</h6>
+    </div>
+    <div class="mt-2 ms-5">
+      <img src="images/jeep.png" style="height: 100px;">
+      <h6 class="ms-3 fw-bold mt-2">Business industrial & Agriculture </h6>
+    </div>
+    <div class="mt-2 ms-5">
+      <img src="images/service.png" style="height: 100px;">
+      <h6 class="ms-3 fw-bold mt-2">Servises</h6>
+    </div>
+    <div class="mt-2 ms-5">
+      <img src="images/jobs.png" style="height: 100px;">
+      <h6 class="ms-4 fw-bold mt-2">Jobs</h6>
+    </div>
+  </div>
+  <div class="container d-flex">
+    <div class="mt-2 ms-2">
+      <img src="images/animals.png" style="height: 105px;">
+      <h6 class="ms-3 fw-bold mt-2">Animals</h6>
+    </div>
+    <div class="mt-3 ms-5">
+      <img src="images/furniture-home-decor.png" style="height: 100px;">
+      <h6 class="ms-3 fw-bold mt-2">Furniture & home decore</h6>
+    </div>
+    <div class="mt-3 ms-5">
+      <img src="images/fashion-beauty.png" style="height: 100px;">
+      <h6 class="ms-3 fw-bold mt-2">Fashion & beauty</h6>
+    </div>
+    <div class="mt-4 ms-5">
+      <img src="images/books-sports-hobbies.png" style="height: 100px;">
+      <h6 class="ms-3 fw-bold mt-2">Books,sport & hobbies</h6>
+    </div>
+    <div class="mt-4 ms-5">
+      <img src="images/kids.png" style="height: 100px;">
+      <h6 class="ms-4 fw-bold mt-2">Kids</h6>
+    </div>
+    <div class="container offset-4"></div>
+  </div>
+  <div class="container-sm">
+    <h4 class="mt-5 fw-bold">Mobile Phones</h4>
+  </div>
+  <div class="container d-flex mt-4">
+    <div class="card" style="width: 18rem;">
+      <img src="images/mobile-2.webp" class="card-img-top" style="height: 220px; width: 100%;" alt="...">
+      <div class="card-body">
+        <h5 class="card-text fw-bold">Rs 13,250</h5>
+        <p class="fw-bold mt-3">TECNO NEW MODELS | Mobile on installment | Mobile for sale in karachi</p>
+        <p class="text-muted">Korangi Road , Karachi</p>
+        <p class="text-muted">2 weeks ago</p>
+      </div>
+    </div>
+    <div class="card ms-4" style="width: 18rem;">
+      <img src="images/iphone xs.jpg" class="card-img-top" style="height: 220px; width: 100%;" alt="...">
+      <div class="card-body">
+        <h5 class="card-text fw-bold">Rs 92,000</h5>
+        <p class="fw-bold mt-3">iphone Xs Max PTA Approved</p>
+        <p class="text-muted">RJ Shopping Mall, Karachi</p>
+        <p class="text-muted">2 days ago</p>
+      </div>
+    </div>
+    <div class="card ms-4" style="width: 18rem;">
+      <img src="images/mobile-4.webp" class="card-img-top" style="height: 220px; width: 100%;" alt="...">
+      <div class="card-body">
+        <h5 class="card-text fw-bold">Rs 108,000</h5>
+        <p class="fw-bold mt-3">IPhone 13 | 256gb | Factory unlock</p>
+        <p class="text-muted">Saddar Town,Karachi</p>
+        <p class="text-muted">2 weeks ago</p>
+      </div>
+    </div>
+    <div class="card ms-4" style="width: 18rem;">
+      <img src="images/mobile-5.webp" class="card-img-top" style="height: 220px; width: 100%;" alt="...">
+      <div class="card-body">
+        <h5 class="card-text fw-bold">Rs 55,000</h5>
+        <p class="fw-bold mt-3">infinix | good phone only use 2 month</p>
+        <p class="text-muted">G-9, islamabad</p>
+        <p class="text-muted">2 minutes ago</p>
+      </div>
+    </div>
+  </div>
+  <div class="container d-flex">
+    <h4 class="mt-5 fw-bold">Cars</h4>
+  </div>
+  <div class="container d-flex mt-3">
+    <div class="card" style="width: 18rem;">
+      <img src="images/car 1.jpg" class="card-img-top" style="height: 220px; width: 100%;" alt="...">
+      <div class="card-body">
+        <h5 class="card-text fw-bold">Rs 2,600,000</h5>
+        <p class="fw-bold mt-3">Honda Civic VTi oriel Prosmatec 2009</p>
+        <p class="text-muted">Valencia Town, Lahore</p>
+        <p class="text-muted">3 weeks ago</p>
+      </div>
+    </div>
+    <div class="card ms-4" style="width: 18rem;">
+      <img src="images/car 2.jpg" class="card-img-top" style="height: 220px; width: 100%;" alt="...">
+      <div class="card-body">
+        <h5 class="card-text fw-bold">Rs 4,400,000</h5>
+        <p class="fw-bold mt-3">Toyota Corolla Altis 2017</p>
+        <p class="text-muted">Gulistan-e-jauhar, Karachi</p>
+        <p class="text-muted">3 minutes ago</p>
+      </div>
+    </div>
+    <div class="card ms-4" style="width: 18rem;">
+      <img src="images/car 3.webp" class="card-img-top" style="height: 220px; width: 100%;" alt="...">
+      <div class="card-body">
+        <h5 class="card-text fw-bold">Rs 10,500,000</h5>
+        <p class="fw-bold mt-3">Toyota Corolla Cross HEV 2024</p>
+        <p class="text-muted">Ghulam Mohammad Abad,Faislabad</p>
+        <p class="text-muted">10 minutes ago</p>
+      </div>
+    </div>
+    <div class="card ms-4" style="width: 18rem;">
+      <img src="images/car 4.webp" class="card-img-top" style="height: 220px; width: 100%;" alt="...">
+      <div class="card-body">
+        <h5 class="card-text fw-bold">Rs 725,000</h5>
+        <p class="fw-bold mt-3">Sazuki Alto 2005 Better then Mehran/coure/cultus/santro</p>
+        <p class="text-muted">GT Road, Gujar Khan</p>
+        <p class="text-muted">35 minutes ago</p>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <h4 class="mt-5 fw-bold">Bikes & Motorcycles</h4>
+  </div>
+  <div class="container d-flex mt-3">
+    <div class="card" style="width: 18rem;">
+      <img src="images/bike 1.jpg" class="card-img-top" style="height: 220px; width: 100%;" alt="...">
+      <div class="card-body">
+        <h5 class="card-text fw-bold">Rs 1,250,000</h5>
+        <p class="fw-bold mt-3">BMW Fresh import 2024</p>
+        <p class="text-muted">Zaman Park,Lahore</p>
+        <p class="text-muted">2 weeks ago</p>
+      </div>
+    </div>
+    <div class="card ms-4" style="width: 18rem;">
+      <img src="images/bike 2.jpg" class="card-img-top" style="height: 220px; width: 100%;" alt="...">
+      <div class="card-body">
+        <h5 class="card-text fw-bold">Rs 169,000</h5>
+        <p class="fw-bold mt-3">Honda CG 125 2021</p>
+        <p class="text-muted">North Karachi, Karachi</p>
+        <p class="text-muted">20 hours ago</p>
+      </div>
+    </div>
+    <div class="card ms-4" style="width: 18rem;">
+      <img src="images/bike 3.jpg" class="card-img-top" style="height: 220px; width: 100%;" alt="...">
+      <div class="card-body">
+        <h5 class="card-text fw-bold">Rs 460,000</h5>
+        <p class="fw-bold mt-3">Honda CB150F</p>
+        <p class="text-muted">DHA Phase 2 Extension, Karachi</p>
+        <p class="text-muted">1 day ago</p>
+      </div>
+    </div>
+    <div class="card ms-4" style="width: 18rem;">
+      <img src="images/bike 4.webp" class="card-img-top" style="height: 220px; width: 100%;" alt="...">
+      <div class="card-body">
+        <h5 class="card-text fw-bold">Rs 260,000</h5>
+        <p class="fw-bold mt-3">infinity high speed</p>
+        <p class="text-muted">Jalal Town,Gujranwala</p>
+        <p class="text-muted">23 hours ago</p>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <h4 class="mt-5 fw-bold">Houses</h4>
+  </div>
+  <div class="container d-flex mt-3">
+    <div class="card" style="width: 18rem;">
+      <img src="images/house 1.jpg" class="card-img-top" style="height: 220px; width: 100%;" alt="...">
+      <div class="card-body">
+        <h5 class="card-text fw-bold">Rs 5,200,000 </h5>
+        <p class="fw-bold mt-3">2 Marla 25sqft brand new house in ghouse housing scheme Phase
+          3
+        </p>
+        <p class="text-muted">Ghouse Garden - Phase3, Lahore</p>
+        <p class="text-muted">2 weeks ago</p>
+      </div>
+    </div>
+    <div class="card ms-4" style="width: 18rem;">
+      <img src="images/house 2.jpg" class="card-img-top" style="height: 220px; width: 100%;" alt="...">
+      <div class="card-body">
+        <h5 class="card-text fw-bold">Rs 16,200,000 </h5>
+        <p class="fw-bold mt-3">Luxury 5 Marla 4 bed room villa/house for sale
+        </p>
+        <p class="text-muted">Taj Residencia housing society,Rawalpindi</p>
+        <p class="text-muted">3 days ago</p>
+      </div>
+    </div>
+    <div class="card ms-4" style="width: 18rem;">
+      <img src="images/house 3.webp" class="card-img-top" style="height: 220px; width: 100%;" alt="...">
+      <div class="card-body">
+        <h5 class="card-text fw-bold">Rs 18,000,000 </h5>
+        <p class="fw-bold mt-3">3 Marla Designer House With Modern Elevation For Sale In Faisal Hills Block A</p>
+        <p class="text-muted">Faisal Hills, Taxila</p>
+        <p class="text-muted">2 days ago</p>
+      </div>
+    </div>
+    <div class="card ms-4" style="width: 18rem;">
+      <img src="images/house 4.jpg" class="card-img-top" style="height: 220px; width: 100%;" alt="...">
+      <div class="card-body">
+        <h5 class="card-text fw-bold">Rs 32,500,000</h5>
+        <p class="fw-bold mt-3">Simple yet modern villa Having Very Huge Kitchen For Single Family Big Size 4 Beds Prime
+          Location</p>
+        <p class="text-muted">Bahria Town - Precinct 1, Karachi</p>
+        <p class="text-muted">19 hours ago</p>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <h4 class="mt-5 fw-bold">Vedios & Audios</h4>
+  </div>
+  <div class="container d-flex mt-3">
+    <div class="card" style="width: 18rem;">
+      <img src="images/audio 1.webp" class="card-img-top" style="height: 220px; width: 100%;" alt="...">
+      <div class="card-body">
+        <h5 class="card-text fw-bold">Rs 47,000</h5>
+        <p class="fw-bold mt-3">LIMTED SALE LED TV 55" INCH SAMSUNG ANDROID 4K UHD LED 2024 NEW MODEL</p>
+        <p class="text-muted">Aisha Manzil, Karachi</p>
+        <p class="text-muted">1 week ago</p>
+      </div>
+    </div>
+    <div class="card ms-4" style="width: 18rem;">
+      <img src="images/audio 2.webp" class="card-img-top" style="height: 220px; width: 100%;" alt="...">
+      <div class="card-body">
+        <h5 class="card-text fw-bold">Rs 11,499 </h5>
+        <p class="fw-bold mt-3">Walkie Talkie | Wireless Set Official Baofeng UV-5R Two Way Radio</p>
+        <p class="text-muted">Gulistan-e-Jauhar Block 13, Karachi</p>
+        <p class="text-muted">2 weeks ago</p>
+      </div>
+    </div>
+    <div class="card ms-4" style="width: 18rem;">
+      <img src="images/audio 3.webp" class="card-img-top" style="height: 220px; width: 100%;" alt="...">
+      <div class="card-body">
+        <h5 class="card-text fw-bold">Rs 149,999</h5>
+        <p class="fw-bold mt-3">Premium Kenwood Speakers, Rock Mars Amplifiers ,Heavy Sound System</p>
+        <p class="text-muted">Ali Town, Gujrat</p>
+        <p class="text-muted">1 week ago</p>
+      </div>
+    </div>
+    <div class="card ms-4" style="width: 18rem;">
+      <img src="images/audio 4.webp" class="card-img-top" style="height: 220px; width: 100%;" alt="...">
+      <div class="card-body">
+        <h5 class="card-text fw-bold">Rs 799</h5>
+        <p class="fw-bold mt-3">M10 TWS Wireless Headphones Touch Control Bluetooth</p>
+        <p class="text-muted">Chowk Kumharanwala, Multan</p>
+        <p class="text-muted">10 minutes ago</p>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <h4 class="mt-5 fw-bold">Tablets</h4>
+  </div>
+  <div class="container d-flex mt-3">
+    <div class="card" style="width: 18rem;">
+      <img src="images/tab 1.webp" class="card-img-top" style="height: 220px; width: 100%;" alt="...">
+      <div class="card-body">
+        <h5 class="card-text fw-bold">Rs 10,000</h5>
+        <p class="fw-bold mt-3">Apple Ipad 4 in stock 32GB Tablet With Wholesale Price</p>
+        <p class="text-muted">Ichhra, Lahore</p>
+        <p class="text-muted">1 week ago</p>
+      </div>
+    </div>
+    <div class="card ms-4" style="width: 18rem;">
+      <img src="images/tab 2.webp" class="card-img-top" style="height: 220px; width: 100%;" alt="...">
+      <div class="card-body">
+        <h5 class="card-text fw-bold">Rs 155,000</h5>
+        <p class="fw-bold mt-3">Samsung Galaxy Tab S8 - SM-X700 - 8GB/128GB - 100% Original</p>
+        <p class="text-muted">Shalley Valley, Rawalpindi</p>
+        <p class="text-muted">1 week ago</p>
+      </div>
+    </div>
+    <div class="card ms-4" style="width: 18rem;">
+      <img src="images/tab 3.webp" class="card-img-top" style="height: 220px; width: 100%;" alt="...">
+      <div class="card-body">
+        <h5 class="card-text fw-bold">Rs 6,499</h5>
+        <p class="fw-bold mt-3">Tabs Branded Tablets Samsung \ Huawei \ Lenovo \ Amazon</p>
+        <p class="text-muted">Allama Iqbal Town, Lahore</p>
+        <p class="text-muted">26 minutes ago</p>
+      </div>
+    </div>
+    <div class="card ms-4" style="width: 18rem;">
+      <img src="images/tab 4.webp" class="card-img-top" style="height: 220px; width: 100%;" alt="...">
+      <div class="card-body">
+        <h5 class="card-text fw-bold">Rs 99,500</h5>
+        <p class="fw-bold mt-3">ipad pro M1 12.9 inches 03279229875 only WhatsAp</p>
+        <p class="text-muted">Jinnah Park Colony No 2, Sialkot</p>
+        <p class="text-muted">38 minutes ago</p>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <h4 class="mt-5 fw-bold">Land & Plots</h4>
+  </div>
+  <div class="container d-flex mt-3">
+    <div class="card" style="width: 18rem;">
+      <img src="images/plot 1.webp" class="card-img-top" style="height: 220px; width: 100%;" alt="...">
+      <div class="card-body">
+        <h5 class="card-text fw-bold">Rs 1,300,000</h5>
+        <p class="fw-bold mt-3">PREMIER LIVING ETIHAD TOWN PHASE 1</p>
+        <p class="text-muted">Etihad Town Phase 1, Lahore</p>
+        <p class="text-muted">2 weeks ago</p>
+      </div>
+    </div>
+    <div class="card ms-4" style="width: 18rem;">
+      <img src="images/plot 2.webp" class="card-img-top" style="height: 220px; width: 100%;" alt="...">
+      <div class="card-body">
+        <h5 class="card-text fw-bold">Rs 10,000,000</h5>
+        <p class="fw-bold mt-3">5 marla level plot for sale and Exchange in shah Allah ditta Islamabad</p>
+        <p class="text-muted">Shah Allah Ditta, Islamabad</p>
+        <p class="text-muted">1 week ago</p>
+      </div>
+    </div>
+    <div class="card ms-4" style="width: 18rem;">
+      <img src="images/plot 3.webp" class="card-img-top" style="height: 220px; width: 100%;" alt="...">
+      <div class="card-body">
+        <h5 class="card-text fw-bold">Rs 7,400,000</h5>
+        <p class="fw-bold mt-3">Phase 8 Sector M Boulevard Possession Utility Paid Street 26 Plot 737</p>
+        <p class="text-muted">Bahria Town Phase 8 - Block M, Rawalpindi</p>
+        <p class="text-muted">0 minutes ago</p>
+      </div>
+    </div>
+    <div class="card ms-4" style="width: 18rem;">
+      <img src="images/plot 4.webp" class="card-img-top" style="height: 220px; width: 100%;" alt="...">
+      <div class="card-body">
+        <h5 class="card-text fw-bold">Rs 6,500,000</h5>
+        <p class="fw-bold mt-3">5 Marla plot available for sale in b-17</p>
+        <p class="text-muted">B-17, Islamabad</p>
+        <p class="text-muted">1 week ago</p>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <h4 class="mt-5 fw-bold">Jobs</h4>
+  </div>
+  <div class="container d-flex mt-4">
+    <div class="card" style="width: 18rem;">
+      <img src="images/job 1.webp" class="card-img-top" style="height: 220px; width: 100%;" alt="...">
+      <div class="card-body">
+        <p class="card-text fw-bold mt-3">Jobs For male And female / Company Visa / Jobs In Canada</p>
+        <p class="text-muted">Ichhra, Lahore</p>
+        <p class="text-muted">4 weeks ago</p>
+      </div>
+    </div>
+    <div class="card ms-4" style="width: 18rem;">
+      <img src="images/job 2.webp" class="card-img-top" style="height: 220px; width: 100%;" alt="...">
+      <div class="card-body">
+        <p class="card-text fw-bold mt-3">Customer Service</p>
+        <p class="text-muted">Johar Town Phase 1, Lahore</p>
+        <p class="text-muted">2 days ago</p>
+      </div>
+    </div>
+    <div class="card ms-4" style="width: 18rem;">
+      <img src="images/job 3.webp" class="card-img-top" style="height: 220px; width: 100%;" alt="...">
+      <div class="card-body">
+        <p class="card-text fw-bold mt-3">Urgent staff required for LHR & RWP</p>
+        <p class="text-muted">AWT Housing Scheme, Rawalpindi</p>
+        <p class="text-muted">2 weeks ago</p>
+      </div>
+    </div>
+    <div class="card ms-4" style="width: 18rem;">
+      <img src="images/job 4.webp" class="card-img-top" style="height: 220px; width: 100%;" alt="...">
+      <div class="card-body">
+        <p class="card-text fw-bold mt-3">Handwriting assignment work</p>
+        <p class="text-muted">A Block, Vehari</p>
+        <p class="text-muted">11 minutes ago</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-5 ">
+    <img class="ms-5" src="images/Blog-image-1.jpg" style="height:650px;" alt="">
+  </div>
+
+  <div class="container-fluid ps-4 try mt-4">
+    <div class="row">
+      <div class="col-6 col-md-4 ">
+        <img class="ms-5 image-fluid" src="images/olx logo image.webp" alt="">
+      </div>
+
+      <div class="col-6 col-md-4 px-4 pt-5">
+        <h2 class="" style="font-weight: bolder; color: #002f34; ">TRY THE OLX APP</h2>
+        <p style=" color: #002f34; font-size: 1.2rem;">Buy, sell and find just about anything using the app on your
+          mobile.</p>
+        <div class=""></div>
+      </div>
+      <div class="col-6 col-md-4 ps-5">
+        <p class="pt-5" style=" color: #002f34; font-weight: bolder; font-size: 0.9rem;">GET YOUR APP TODAY</p>
+        <div class="pt-1">
+          <span class="pe-1"><img src="images/iconAppStore.svg" alt="" width="120px"> </span>
+          <span class="pe-1"><img src="images/iconGooglePlay.svg" alt="" width="120px"> </span>
+          <span class="pe-1"> <img src="images/iconAppGallery.svg" alt="" width="120px"> </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="footer container-fluid pt-3 ps-5 h-25">
+      <div class="row">
+        <div class="col ms-5">
+          <span class="footer-link-heading" style="font-weight:bolder;">POPULAR CATEGORIES</span>
+          <ul class="list-unstyled pt-2 pb-4" style="line-height:1.5rem;">
+            <li style="font-size:0.8rem ;"> <a href="" class="text-decoration-none footer-link text-dark">Cars</a></li>
+            <li style="font-size:0.8rem ;"> <a href="" class="text-decoration-none footer-link text-dark">Flates for rent</a></li>
+            <li style="font-size:0.8rem ;"> <a href="" class="text-decoration-none footer-link text-dark">Mobile Phones</a></li>
+            <li style="font-size:0.8rem ;"> <a href="" class="text-decoration-none footer-link text-dark">Jobs</a></li>
+          </ul>
+        </div>
+
+        <div class="col-2 ms-4"> <span class="footer-link-heading" style="font-weight:bolder;">TRENDING SEARCHES</span>
+          <ul class="list-unstyled pt-2" style="line-height:1.5rem;">
+            <li style="font-size:0.8rem ;"> <a href="" class="text-decoration-none footer-link text-dark">Bikes</a></li>
+            <li style="font-size:0.8rem ;"> <a href="" class="text-decoration-none footer-link text-dark">Watches</a></li>
+            <li style="font-size:0.8rem ;"> <a href="" class="text-decoration-none footer-link text-dark">Books</a></li>
+            <li style="font-size:0.8rem ;"> <a href="" class="text-decoration-none footer-link text-dark">DoGs</a></li>
+          </ul>
+        </div>
+
+        <div class="col-2 ms-4">
+          <span class="footer-link-heading" style="font-weight:bolder;">ABOUT US</span>
+          <ul class="list-unstyled pt-2" style="line-height:1.5rem;">
+            <li style="font-size:0.8rem ;"> <a href="" class="text-decoration-none footer-link text-dark">About Dubizzle Group</a>
+            </li>
+            <li style="font-size:0.8rem ;"> <a href="" class="text-decoration-none footer-link text-dark">OLX Blogs</a></li>
+            <li style="font-size:0.8rem ;"> <a href="" class="text-decoration-none footer-link text-dark">Contact Us</a></li>
+            <li style="font-size:0.8rem ;"> <a href="" class="text-decoration-none footer-link text-dark">OLX for Businesses</a>
+            </li>
+          </ul>
+
+
+        </div>
+        <div class="col-2 ms-4">
+          <span class="footer-link-heading" style="font-weight:bolder;">OLX</span>
+          <ul class="list-unstyled pt-2" style="line-height:1.5rem;">
+            <li style="font-size:0.8rem ;"> <a href="" class="text-decoration-none footer-link text-dark">Help</a></li>
+            <li style="font-size:0.8rem ;"> <a href="" class="text-decoration-none footer-link text-dark">Sitemap</a></li>
+            <li style="font-size:0.8rem ;"> <a href="" class="text-decoration-none footer-link text-dark">Terms of use</a></li>
+            <li style="font-size:0.8rem ;"> <a href="" class="text-decoration-none footer-link text-dark">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="col-3 ms-3 ps-4">
+          <span class="footer-link-heading" style="font-weight: bolder;"> FOLLOW US</span>
+          <div>
+            <span><img src="https://www.olx.com.pk/assets/iconTwitter_noinline.6037fa7d9a7b9d6408fb1b3d70524b97.svg"
+                alt="" width="24px " height="24px">
+            </span>
+            <span><img src="https://www.olx.com.pk/assets/iconFacebook_noinline.773db88c5b9ee5aaab365e61cdb750da.svg"
+                alt="" width="24px" height="24px"> </span>
+            <span><img src="https://www.olx.com.pk/assets/iconYoutube_noinline.c85bd6801ec83d6a3b498059550bef26.svg"
+                alt="" width="24px" height="24px"> </span>
+            <span><img src="https://www.olx.com.pk/assets/iconInstagram_noinline.d7d5811ebc44e03a674c8d0b5ff3f232.svg"
+                alt="" width="24px" height="24px"> </span>
+          </div>
+
+          <div class="pt-5">
+            <span class="pe-1"><img src="images/iconAppGallery.svg" alt="" width="85px"> </span>
+            <span class="pe-1"><img src="images/iconGooglePlay.svg" alt="" width="85px"> </span>
+            <span class="pe-1"> <img src="images/iconAppGallery.svg" alt="" width="85px"> </span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </footer>
+  <div class="footer-end text-white pt-3 pb-3 pe-4">
+    <span style="font-weight:bolder ;">Free Classifieds in Pakistan </span>
+    <span class="pe-4">. © 2006-2024 OLX</span>
+  </div>
+
+
+</body>
+
+</html>
